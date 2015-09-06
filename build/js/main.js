@@ -11,23 +11,24 @@ webpackJsonp([0],[
 
 	"use strict";
 
-	__webpack_require__(2);
 	__webpack_require__(3);
+	__webpack_require__(4);
 
 /***/ },
-/* 2 */
+/* 2 */,
+/* 3 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 3 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var React = __webpack_require__(4);
-	var ArtistHeader = __webpack_require__(5);
+	var React = __webpack_require__(2);
+	var ArtistHeader = __webpack_require__(7);
 
 	var artists = window.post_meta.split(",");
 	React.render(React.createElement(ArtistHeader, { artists: artists }), document.getElementById('react_artists'));
@@ -44,15 +45,16 @@ webpackJsonp([0],[
 	$(".post_date").text(window.post_time);
 
 /***/ },
-/* 4 */,
-/* 5 */
+/* 5 */,
+/* 6 */,
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var React = __webpack_require__(4);
+	var React = __webpack_require__(2);
 
-	var ArtistInfo = __webpack_require__(6);
+	var ArtistInfo = __webpack_require__(8);
 
 	module.exports = React.createClass({
 	    displayName: 'exports',
@@ -97,11 +99,11 @@ webpackJsonp([0],[
 	});
 
 /***/ },
-/* 6 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var React = __webpack_require__(4);
+	var React = __webpack_require__(2);
 	module.exports = React.createClass({
 	    displayName: 'exports',
 

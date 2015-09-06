@@ -12,7 +12,7 @@ var config = {
      this.entry.vendors.push(name); // Add the vendor to the list of 'Vendors' which will compile in a seperate chunk
    },
     entry: {
-        app: [path.resolve(__dirname, 'main.js')],
+        app: [path.resolve(__dirname, 'app/main.js')],
         vendors: []
     },
     output: {

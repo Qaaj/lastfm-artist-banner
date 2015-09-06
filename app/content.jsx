@@ -1,5 +1,5 @@
 var React = require('react');
-var ArtistHeader = require('./ArtistHeader')
+var ArtistHeader = require('./components/ArtistHeader')
 
 
  var artists = window.post_meta.split(",");
