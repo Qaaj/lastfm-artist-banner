@@ -1,0 +1,178 @@
+html,body {
+    width:100%;
+    height:100%;
+    font-family: 'Helvetica';
+}
+
+html {
+    display:table;
+}
+body {
+    display:table-cell;
+    background-color: #f6f5f6;
+}
+.top-100{
+	margin-top: 100px;
+}
+
+.grey{
+	background-color: #ccc;
+}
+
+.red{
+	background-color: #f00;
+}
+
+.no-padding{
+	 padding: 0 !important;
+   margin: 0 !important;
+}
+
+.post {
+	padding: 15px;
+}
+.max-100{
+	height: 100px;
+}
+
+.demo-card-wide.mdl-card {
+	margin-top: 25px;
+    width: 100%;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+
+  .avatar-holder{
+    float: left;
+     position: relative;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+  }
+
+  iframe {
+    display:block;
+    width:100%;
+} 
+
+#sidebar{
+  width: 200px;
+  height: 100vh;
+  float: left;
+}
+
+#single_page{
+  width: 100%;
+  height: 100%;
+}
+
+#post-content img{
+  margin: 25px;
+  float: left;
+}
+
+#post-content{
+  padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  font-size: 18px;
+    width: 80vw;
+}
+
+#post-content div {
+  margin-top: 15px;
+}
+
+.soundcloud{
+  width: 95%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-top: 40px !important;
+  margin-bottom: 25px;
+}
+
+.artist_title{
+  margin-top: 20px;
+  position: relative;
+  top:1px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  width: 250px;
+  opacity: .3;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+}
+
+.artistHeader{
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+.artistHolder{
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title_holder{
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.post_title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.post_date{
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+/*Blockquote*/
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  display: none;
+}
+blockquote:after {
+  display: none;
+}
+blockquote p {
+  display: inline;
+}
